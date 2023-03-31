@@ -5,7 +5,6 @@ function PopupWithForm(props) {
         props.isOpen ? "popup_opened" : false
       }`}
       onClick={props.onOverlayClose}
-      onKeyDown={props.onEscClose}
     >
       <div className={`popup__container popup__container_type${props.name}`}>
         <h3 className="popup__title">{props.title}</h3>

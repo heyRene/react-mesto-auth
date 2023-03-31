@@ -17,6 +17,7 @@ import * as auth from "../utils/auth.js";
 import ProtectedRouteElement from "./ProtectedRoute.js";
 import InfoTooltip from "./InfoTooltip.js";
 
+
 function App() {
   const [currentUser, setCurrentUser] = useState({});
   const [isEditAvatarPopupOpen, setIsEditAvatarPopupOpen] = useState(false);
