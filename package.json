@@ -1,6 +1,6 @@
 {
-  "homepage": "https://heyrene.github.io/mesto-react/",
-  "name": "mesto-react",
+  "homepage": "./",
+  "name": "mesto-react-auth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
